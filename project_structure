@@ -1,0 +1,30 @@
+csr-llm-automation/
+│
+├── app/
+│   ├── main.py
+│   ├── rag/
+│   │   ├── embedder.py
+│   │   ├── retriever.py
+│   │   └── vectorstore.py
+│   ├── models/
+│   │   └── inference.py
+│   ├── pipelines/
+│   │   ├── control_mapping.py
+│   │   ├── gap_analysis.py
+│   │   └── evidence_generator.py
+│   └── utils/
+│       ├── pdf_reader.py
+│       └── preprocessing.py
+│
+├── data/
+│   ├── sample_policies/
+│   ├── audit_reports/
+│   └── frameworks/
+│
+├── ui/
+│   └── streamlit_app.py
+│
+├── requirements.txt
+└── README.md
+
+please follow this structure, don't hallucinate.
